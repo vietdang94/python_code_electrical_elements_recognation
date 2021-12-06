@@ -34,7 +34,6 @@ while (True):
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# When everything done, release the capture
 #когда все закончилось то остановить съемку
 cap.release()
 cv2.destroyAllWindows()
